@@ -1,0 +1,11 @@
+{
+    "name": "mobx",
+    "type": "module",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "Roman Rodin <romaro83@gmail.com>",
+    "license": "MIT",
+    "dependencies": {
+        "mobx": "^6.6.2"
+    }
+}

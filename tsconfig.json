@@ -1,0 +1,37 @@
+{
+    "compilerOptions": {
+        "strict": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "allowUnreachableCode": false,
+        "allowUnusedLabels": false,
+        "exactOptionalPropertyTypes": true,
+        "noFallthroughCasesInSwitch": true,
+        "noImplicitAny": false,
+        "noImplicitOverride": false,
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+        "noPropertyAccessFromIndexSignature": true,
+        "strictPropertyInitialization": true,
+        "strictNullChecks": true,
+        "lib": [
+            "DOM",
+            "DOM.Iterable",
+            "ESNext"
+        ],
+        "esModuleInterop": true,
+        "composite": true,
+        "module": "ES2020",
+        "target": "ESNext",
+        "rootDir": ".",
+        "outDir": "_public",
+        "moduleResolution": "Node",
+        "allowSyntheticDefaultImports": true,
+        "declaration": true,
+        "declarationMap": true,
+        "jsx": "react-jsx"
+    },
+    "exclude": [
+        "node_modules"
+    ],
+}
